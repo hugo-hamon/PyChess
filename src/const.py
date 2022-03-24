@@ -1,4 +1,5 @@
 WINDOW_SIZE = 640
+SQUARE_SIZE = 80
 PIECE_SIZE = 60
 
 BOARD_PATH = "images/board/wood_board.png"

@@ -8,7 +8,7 @@ def get_square(x: int, y: int) -> Tuple[int, int]:
 
 
 def get_piece_from_square(x: int, y: int, pieces: List[Any]) -> Union[Any, None]:
-    """Return Piece at square x, y"""
+    """Return Piece at square x, y or None if there is no piece."""
     for piece in pieces:
         if piece.get_square() == (x, y):
             return piece
